@@ -24,6 +24,7 @@ public class DemoTestNG
 	@Test
 	public void gmailLogin()
 	{
+		System.out.println("Test execution started");
 		
 		driver.get("https://www.facebook.com");//opening facebook url in chrome
 		
