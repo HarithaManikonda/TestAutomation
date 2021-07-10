@@ -39,16 +39,7 @@ public class DemoTestNG
 		String ExpectedText= driver.findElement(By.xpath("//div[@class='_9ay7']")).getText();
 		String ActualText="The password you’ve entered is incorrect. Forgot Password?";
 		Assert.assertEquals(ActualText, ExpectedText);
-		
-		/*System.out.println(s1);
-		if(s1.equals("The password you’ve entered is incorrect. Forgot Password?"))
-		{
-			driver.findElement(By.className("_97w4")).click();
-		}
-		else 
-		{
-			System.out.println("test sucess");
-		}	*/
+
 	}
 		@AfterTest
 		public void closebrowser()
