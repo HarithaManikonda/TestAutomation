@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 0.384 s <<< FAILURE! - in TestSuite
+TestToFail(testNGDemos.ListenerTestNGTestCase)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: 
+	at testNGDemos.ListenerTestNGTestCase.TestToFail(ListenerTestNGTestCase.java:40)
+

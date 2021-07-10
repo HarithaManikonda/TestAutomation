@@ -1,0 +1,26 @@
+<!--<suite name="softwaretestingmaterial">
+ <test name="testngTest">
+ <groups>
+	 	  <define name="all">
+	             <include name="smokeTest"/>
+	             <exclude name="functionalTest"/>
+	     </define>
+	 
+	 <run>
+ 		<include name="functionalTest"/>
+             
+ 	</run>
+ </groups>
+
+ <classes>
+
+ <class name="testNGDemos.ParameterizedTest">
+  <parameter name="browser" value="firefox">
+ </parameter>
+ </class>
+ </classes>
+ </test>
+ 
+ 
+ 
+</suite>-->
