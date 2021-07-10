@@ -55,6 +55,7 @@ public class DemoTestNG
 		
 		{
 			driver.close();
+			System.out.println("closed the browser");
 		}
 		
 			
