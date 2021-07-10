@@ -27,6 +27,11 @@ public class MultipleTestAlphabetically {
 		System.out.println("Inside Testcase K");
 		
 	}
+	@Test(priority=6)
+	public void  l_test() {
+		System.out.println("Inside Testcase L");
+		
+	}
 	@Test(priority=3)
 	public void  d_test() {
 		System.out.println("Inside Testcase D");
